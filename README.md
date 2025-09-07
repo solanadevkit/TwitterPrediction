@@ -25,28 +25,12 @@ PANAGOT transforms Twitter into a live, on-chain prediction market platform powe
    - Tweet: `@PANAGOT withdraw <amount> <solana_address>`
    - The bot sends SOL to your specified address (Devnet).
 
-## Planned/Upcoming
-- **Automated Market Resolution:**
-  - When a market ends, the bot will ask @Grok (or another AI) to resolve the outcome by tweeting: `@Grok did [event] happen? Yes or No?`
-  - The bot will parse Grok’s reply and resolve the market accordingly.
-- **Automated Payouts:**
-  - After resolution, the bot will automatically distribute winnings to the correct users’ deposit addresses and update balances.
-- **Persistent Storage:**
-  - Move from in-memory to persistent storage for markets and bets for full reliability.
-
-## Current Status (Devnet MVP)
-- ✅ Deposit system live
-- ✅ Market creation via tweet
-- ✅ Betting via tweet replies
-- ✅ Balance tracking (on-chain)
-- ✅ Withdrawals
-- 🚧 Automated resolution and payouts (planned)
-
 ## Notes
 - All SOL actions are on Solana Devnet for testing.
 - Twitter API rate limits may delay replies or confirmations.
 - If the bot is rate-limited, actions are queued and retried after reset.
 
 ---
+
 
 For questions or contributions, contact @Panagot on Twitter. 
